@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
+
+.career_para {
+  font-family: 'Pathway Extreme', sans-serif;
+  font-size: 25px;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  padding: 100px;
+}
+
+.card {
+  margin: 60px 100px;
+  padding: 30px;
+  font-family: 'Pathway Extreme', sans-serif;
+  border-radius: 25px;
+}
+
+.card li {
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 0px;
+}
+
+.accordion {
+  background-color: white !important;
+}
+
+.accordion-button {
+  background-color: #4d4a4a !important;
+  font-size: 25px !important;
+  color: white !important;
+  font-weight: bold;
+  border-color: #4a4a4a !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  /* Styles for screens up to 768px */
+  .career_para {
+    padding: 50px;
+  }
+  
+  .card {
+    margin: 30px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Styles for screens up to 480px */
+  .career_para {
+    padding: 30px;
+    font-size: 20px;
+  }
+  
+  .card {
+    margin: 20px;
+    padding: 15px;
+  }
+  
+  .card li {
+    font-size: 18px;
+  }
+}

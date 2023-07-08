@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
+
+.locations_container {
+  display: flex;
+  font-family: 'Pathway Extreme', sans-serif;
+  justify-content: center;
+  margin-top: 30px;
+  background: -webkit-linear-gradient(#fff, #4d4a4a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.prime_container {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.location_content {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px;
+    font-family: 'Pathway Extreme', sans-serif;
+    text-align: center;
+}
+
+.locations {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.locations_list {
+    font-size: 34px;
+    font-family: 'Pathway Extreme', sans-serif;
+    width: 100%;
+    padding: 0 auto;
+    color: white;
+    text-align: center;
+}
+
+.box {
+    font-size: 25px;
+    display: block;
+    padding-top: 5px;
+    margin: 25px;
+    width: 250px;
+    height: 50px;
+    background-color: #191715;
+    box-shadow: 0 2px 4px white;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .box::after {
+    content: '';
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    box-shadow: 0 5px 15px white;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .box:hover {
+    transform: scale(1.2, 1.2);
+    background-color: #fff;
+    color: #191715;
+  }
+
+  .box:hover::after {
+    opacity: 1;
+  }
+
+  .topRow{
+    display: flex;
+    justify-content: center;
+  }
+
+  .bottomRow{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
+
+  @media (max-width: 768px) {
+    /* Styles for screens up to 768px */
+
+    .prime_container {
+      display: none;
+  }
+
+    .location_content {
+      font-size: 30px;
+    }
+  
+    .locations_list {
+      font-size: 28px;
+    }
+  
+    .box {
+      font-size: 20px;
+      width: 200px;
+      height: 40px;
+      margin: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /* Styles for screens up to 480px */
+
+    .prime_container {
+      display: none;
+  }
+
+    .location_content {
+      font-size: 25px;
+    }
+  
+    .locations_list {
+      font-size: 24px;
+    }
+  
+    .box {
+      font-size: 18px;
+      width: 180px;
+      height: 35px;
+      margin: 15px;
+    }
+  }

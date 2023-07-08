@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
+
+.main_div {
+  font-family: "Pathway Extreme", sans-serif;
+  color: white;
+  margin-top: 100px;
+}
+
+.target {
+  width: 100%;
+  padding: 75px 100px 50px 100px;
+  font-weight: bolder;
+  font-size: 50px;
+  background: -webkit-linear-gradient(#fff, #4d4a4a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.main_div h3 {
+  padding: 0px 100px;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
+
+.button_div {
+  display: flex;
+  justify-content:space-around;
+}
+
+.service_button {
+  padding: 15px;
+  background-color: #5a5a5a;
+  color: white;
+  font-size: 20px;
+  border: 0;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.service_button:hover {
+  background-color: white;
+  color: #5a5a5a;
+  transition: 0.5s;
+}
+
+.service_button_card {
+  display: flex;
+  width: 30%;
+  padding: 10px;
+  margin-left: 35%;
+  background-color: #5a5a5a;
+  color: white;
+  border: 0;
+  border-radius: 25px;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.service_button_card:hover {
+  background-color: white;
+  color: #5a5a5a;
+  transition: 0.5s;
+}
+
+.offer_cards {
+  display: flex;
+  padding: 50px;
+  margin: 25px 40px 40px 35px;
+  color: white;
+  font-family: "Pathway Extreme", sans-serif;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.offer_cards h1 {
+  background: -webkit-linear-gradient(#fff, #4d4a4a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.offer_cards p {
+  text-align: center;
+  font-size: 17px;
+}
+
+.icons {
+  width: 100%;
+  padding-bottom: 20px;
+  color: darkgray
+}
+
+.offer_cards_card1,
+.offer_cards_card2,
+.offer_cards_card3 {
+  width: 100%;
+  padding: 30px;
+  margin-left: 10px;
+  border-radius: 25px;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.3);
+  transition: all 0.3s ease-in-out;
+  background-color: #5a5a5a;
+}
+
+.offer_cards_card1::after,
+.offer_cards_card2::after,
+.offer_cards_card3::after {
+  z-index: -1;
+  opacity: 0;
+  border: 1px solid #191715;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+  transition: opacity 0.3s ease-in-out;
+}
+
+.offer_cards_card1:hover,
+.offer_cards_card2:hover,
+.offer_cards_card3:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.offer_cards_card1:hover::after,
+.offer_cards_card2:hover::after,
+.offer_cards_card3:hover::after {
+  opacity: 1;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  /* Styles for screens up to 768px */
+  .button_div {
+    flex-wrap: wrap;
+  }
+  
+  .service_button_card {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  
+  .offer_cards {
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .offer_cards_card1,
+  .offer_cards_card2,
+  .offer_cards_card3 {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Styles for screens up to 480px */
+  .target {
+    padding: 50px 30px;
+    font-size: 40px;
+  }
+  
+  .main_div h3 {
+    padding: 0px 30px;
+  }
+  
+  .button_div {
+    flex-direction: column;
+  }
+  
+  .service_button_card {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  
+  .offer_cards {
+    padding: 10px;
+  }
+  
+  .offer_cards p {
+    font-size: 15px;
+  }
+  
+  .offer_cards_card1,
+  .offer_cards_card2,
+  .offer_cards_card3 {
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
+
+.footer {
+  text-align: center;
+  padding: 10px;
+}
+
+.footercol {
+  background: -webkit-linear-gradient(#191715, #4d4a4a);
+  font-family: "Pathway Extreme", sans-serif;
+  margin-left: 20px;
+}
+
+.row.top {
+  margin-left: 75px;
+}
+
+.col-sm-3.links {
+  margin-top: 20px;
+}
+
+.links h5 {
+  background: -webkit-linear-gradient(0deg, #fff, #4d4a4a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+}
+
+.links li {
+  background: -webkit-linear-gradient(0deg, #fff, #4d4a4a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.input a {
+  text-decoration: none;
+}
+
+.input h1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background: -webkit-linear-gradient(#fff, #4d4a4a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer_nav {
+  list-style: none;
+}
+
+.footer_nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer_nav a:hover {
+  color: lightslategrey;
+}
+
+.line {
+  border-top: 1px solid white;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .row.top {
+  margin-left: 0;
+  text-align: center;
+  align-items: center;
+  }
+
+  .footer_nav{
+    padding: 10px;
+  }
+  
+  .col-sm-3.links {
+  margin-top: 10px;
+  }
+  
+  .input {
+  flex-direction: column;
+  }
+  
+  .input h1 {
+  text-align: center;
+  align-items: center;
+  }
+  }

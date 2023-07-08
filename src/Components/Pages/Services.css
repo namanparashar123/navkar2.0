@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
+
+.services_container {
+  font-family: "Pathway Extreme", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 50px;
+}
+
+.intro_para {
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  padding: 20px 60px 10px 60px;
+}
+
+.iconSide {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.iconSide p {
+  color: white;
+  background: -webkit-linear-gradient(#fff, #4d4a4a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+}
+
+.service_icons {
+  color: #4d4a4a;
+}
+
+.contentSide {
+  width: 100%;
+  color: white;
+  text-align: justify;
+  margin: auto 0;
+}
+
+hr {
+  width: 50%;
+  height: 5px;
+  margin: 3% 25% !important;
+  border-radius: 12px;
+  background: #fff;
+}
+/* 
+.contentSide li {
+  list-style: none;
+} */
+
+@media (max-width: 768px) {
+  /* Styles for screens up to 768px */
+  .services_container {
+    font-size: 20px;
+    padding: 30px;
+  }
+
+  .intro_para {
+    padding: 30px;
+  }
+
+  .services {
+    padding: 10px 30px;
+  }
+
+  iconSide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .iconSide p {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .contentSide{
+    text-align: start;
+    font-size: 15px;
+    padding: 7px;
+  }
+  hr {
+    width: 70%;
+    margin: 3% 15% !important;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Styles for screens up to 480px */
+  .services_container {
+    font-size: 18px;
+    padding: 20px;
+  }
+
+  .intro_para {
+    padding: 20px;
+  }
+
+  .services {
+    padding: 10px 20px;
+  }
+
+  .iconSide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .iconSide p {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .contentSide{
+    text-align: start;
+    font-size: 15px;
+    padding: 7px;
+  }
+
+  hr {
+    width: 80%;
+    margin: 3% 10% !important;
+  }
+}

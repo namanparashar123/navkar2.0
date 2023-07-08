@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
+
+.about_container {
+  font-family: "Pathway Extreme", sans-serif;
+  margin-top: 75px;
+  font-size: 30px;
+  padding: 30px;
+}
+
+.vision {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 75px;
+  font-weight: bolder;
+  background: -webkit-linear-gradient(#fff, #4d4a4a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.vision-content {
+  padding: 50px;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.about {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 75px;
+  font-weight: bolder;
+  background: -webkit-linear-gradient(#fff, #4d4a4a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about_content {
+  padding: 50px;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.fleet_header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 75px;
+  font-weight: bolder;
+  background: -webkit-linear-gradient(#fff, #4d4a4a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+ 
+.fleet_info p {
+  padding: 50px;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.fleet_options {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.fleet_options h1 {
+  background: -webkit-linear-gradient(#fff, #4d4a4a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.fleet_options img {
+  width: 100%;
+  height: 140px;
+}
+
+.fleet {
+  padding: 20px 150px;
+}
+
+@media screen and (max-width: 600px) {
+  .about_container,
+  .vision,
+  .vision-content,
+  .about,
+  .about_content,
+  .fleet_header,
+  .fleet_info p,
+  .fleet_options,
+  .fleet_options h1,
+  .fleet_options img,
+  .fleet {
+    padding: 10px;
+  }
+}
+
+.vision, .about{
+  font-size: 70px;
+}
+
+/* Tablets and Small Desktops */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+ 
+}

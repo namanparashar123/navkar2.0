@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
+
+.contact_content {
+  color: white;
+  margin-top: 40px;
+  padding: 25px 50px 25px 50px;
+  font-family: "Pathway Extreme", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.mainForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Pathway Extreme", sans-serif;
+  margin-bottom: 50px;
+}
+
+.formWord {
+  display: grid;
+  padding: 10px;
+  width: 75%;
+  margin-right: 20px;
+  justify-content: right;
+  align-items: center;
+}
+
+.formMessage {
+  display: grid;
+  width: 75%;
+  justify-content: left;
+  margin-left: 20px;
+}
+
+.input100 {
+  padding: 12px;
+  background-color: #191715;
+  color: white;
+  border: 1px solid #4a4a4a;
+  border-radius: 12px;
+}
+
+.input100:focus {
+  outline: none;
+  border: 1px solid white;
+}
+
+.submitBtn {
+  padding: 10px;
+  background-color: #5a5a5a;
+  color: white;
+  border: 0;
+  border-radius: 25px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.submitBtn:hover {
+  background-color: white;
+  color: #5a5a5a;
+  transition: 0.5s;
+}
+
+@media (max-width: 480px) {
+  /* Styles for screens up to 480px */
+  .contact_content {
+    font-size: 18px;
+    padding: 10px 20px 10px 20px;
+  }
+
+  .mainForm {
+    flex-direction: column;
+  }
+
+  .input100 {
+    padding: 8px;
+  }
+
+  .submitBtn {
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  .formMessage {
+    width: 55%;
+  }
+}
