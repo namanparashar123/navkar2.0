@@ -108,6 +108,28 @@
   .fleet {
     padding: 10px;
   }
+
+  .vision-content {
+    font-size: 20px;
+  }
+
+  .about_content {
+    font-size: 20px;
+  }
+
+  .fleet_options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fleet_info p{
+    font-size: 20px
+  }
+
+  .fleet{
+    width: 250px;
+  }
 }
 
 .vision, .about{

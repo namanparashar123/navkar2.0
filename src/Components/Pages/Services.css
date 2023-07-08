@@ -72,7 +72,7 @@ hr {
     padding: 10px 30px;
   }
 
-  iconSide {
+  .iconSide {
     display: flex;
     flex-direction: column;
     align-items: center;
