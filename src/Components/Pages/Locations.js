@@ -94,8 +94,8 @@ const Locations = () => {
             <div className="box">Kenora</div>
           </div>
           <div className="bottomRow">
-            <div className="box">Brandon</div>
-            <div className="box">London</div>
+            <div className="box">Brandon, MB</div>
+            <div className="box">London, ON</div>
           </div>
         </div>
       </div>
