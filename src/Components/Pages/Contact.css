@@ -1,13 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
 
 .contact_content {
+  background: -webkit-linear-gradient(0deg, #102C57, #102C57);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: white;
-  margin-top: 40px;
   padding: 25px 50px 25px 50px;
   font-family: "Pathway Extreme", sans-serif;
-  font-size: 25px;
+  font-size: 50px;
   font-weight: bold;
   text-align: center;
+}
+
+.forms{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
 }
 
 .mainForm {
@@ -16,6 +25,7 @@
   align-items: center;
   font-family: "Pathway Extreme", sans-serif;
   margin-bottom: 50px;
+  padding: 20px;
 }
 
 .formWord {
@@ -35,7 +45,7 @@
 
 .input100 {
   padding: 12px;
-  background-color: #191715;
+  background-color: #102C57;
   color: white;
   border: 1px solid #4a4a4a;
   border-radius: 12px;
@@ -43,12 +53,12 @@
 
 .input100:focus {
   outline: none;
-  border: 1px solid white;
+  border: 1px solid #DAC0A3;
 }
 
 .submitBtn {
   padding: 10px;
-  background-color: #5a5a5a;
+  background-color: #102C57;
   color: white;
   border: 0;
   border-radius: 25px;
@@ -58,7 +68,8 @@
 
 .submitBtn:hover {
   background-color: white;
-  color: #5a5a5a;
+  color: #102C57;
+  border: solid #102C57;
   transition: 0.5s;
 }
 

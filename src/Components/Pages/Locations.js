@@ -41,8 +41,8 @@ const Locations = () => {
     transform: "translate(0, -50%)",
     left: "-32px",
     fontSize: "45px",
-    color: "white",
-    zIndex: 1,
+    color: "#DAC0A3",
+    zIndex: 0,
     cursor: "pointer",
   };
 
@@ -52,8 +52,8 @@ const Locations = () => {
     transform: "translate(0, -50%)",
     right: "-32px",
     fontSize: "45px",
-    color: "white",
-    zIndex: 1,
+    color: "#DAC0A3",
+    zIndex: 0,
     cursor: "pointer",
   };
 
@@ -71,6 +71,7 @@ const Locations = () => {
 
   return (
     <div>
+       <section id="locations"></section>
       <div className="prime_container">
         <div style={containerStyles}>
           <div style={sliderStyles}>

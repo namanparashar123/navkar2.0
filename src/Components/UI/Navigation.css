@@ -18,13 +18,6 @@
   justify-content: right;
 }
 
-#nav-dropdown {
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-  margin-top: 40px;
-}
-
 .nav-bar li {
   font-size: 20px;
   padding: 40px;
@@ -62,12 +55,6 @@
   .nav-bar li {
     padding: 10px;
     font-size: 15px;   
-  }
-
-  #nav-dropdown {
-    margin-top: 17px;
-    padding-top: 0.5px;
-    font-size: 15px;
   }
 }
 

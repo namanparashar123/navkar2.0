@@ -6,17 +6,31 @@
 }
 
 .footercol {
-  background: -webkit-linear-gradient(#191715, #4d4a4a);
+  background: -webkit-linear-gradient(#102C57, #102C57);
   font-family: "Pathway Extreme", sans-serif;
   margin-left: 20px;
 }
 
 .row.top {
-  margin-left: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .col-sm-3.links {
   margin-top: 20px;
+}
+
+.col-sm-5.input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .links h5 {

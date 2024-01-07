@@ -30,10 +30,9 @@ export default function Contact() {
 
   return (
     <div>
-      <p className="contact_content">
-        Weather you are a customer, driver or a potential client, reach
-        out if you have any questions or feedback for us!
-      </p>
+      <section id="contact"></section>
+      <p className="contact_content"> REACH OUT TO US!!</p>
+      <div className="forms">
       <form className="mainForm" ref={form} onSubmit={sendEmail}>
         <div className="formWord">
           <input
@@ -73,6 +72,7 @@ export default function Contact() {
           </button>
         </div>
       </form>
+      </div>
     </div>
   );
 }

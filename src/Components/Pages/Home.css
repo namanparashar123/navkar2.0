@@ -2,7 +2,7 @@
 
 .main_div {
   font-family: "Pathway Extreme", sans-serif;
-  color: white;
+  color: #102C57;
   margin-top: 100px;
 }
 
@@ -11,7 +11,7 @@
   padding: 75px 100px 50px 100px;
   font-weight: bolder;
   font-size: 50px;
-  background: -webkit-linear-gradient(#fff, #4d4a4a);
+  background: -webkit-linear-gradient(#102C57, #102C57);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -34,8 +34,8 @@
 
 .service_button {
   padding: 15px;
-  background-color: #5a5a5a;
-  color: white;
+  background-color: #F8F0E5;
+  color: #FAF9F6;
   font-size: 20px;
   border: 0;
   border-radius: 50px;
@@ -44,7 +44,7 @@
 
 .service_button:hover {
   background-color: white;
-  color: #5a5a5a;
+  color: #102C57;
   transition: 0.5s;
 }
 
@@ -53,8 +53,8 @@
   width: 30%;
   padding: 10px;
   margin-left: 35%;
-  background-color: #5a5a5a;
-  color: white;
+  background-color: #FAF9F6;
+  color: #102C57;
   border: 0;
   border-radius: 25px;
   text-decoration: none;
@@ -63,7 +63,7 @@
 
 .service_button_card:hover {
   background-color: white;
-  color: #5a5a5a;
+  color: #DAC0A3;
   transition: 0.5s;
 }
 
@@ -71,14 +71,22 @@
   display: flex;
   padding: 50px;
   margin: 25px 40px 40px 35px;
-  color: white;
+  color: #FAF9F6;
   font-family: "Pathway Extreme", sans-serif;
   justify-content: space-around;
   align-items: center;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+}
+
+.offer_cards.visible{
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .offer_cards h1 {
-  background: -webkit-linear-gradient(#fff, #4d4a4a);
+  background: -webkit-linear-gradient(#FAF9F6, #FAF9F6);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -94,7 +102,7 @@
 .icons {
   width: 100%;
   padding-bottom: 20px;
-  color: darkgray
+  color: #FAF9F6;
 }
 
 .offer_cards_card1,
@@ -106,7 +114,7 @@
   border-radius: 25px;
   box-shadow: 0 1px 2px 0 rgba(0,0,0,0.3);
   transition: all 0.3s ease-in-out;
-  background-color: #5a5a5a;
+  background-color: #102C57;
 }
 
 .offer_cards_card1::after,

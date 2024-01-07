@@ -2,7 +2,7 @@
 
 .about_container {
   font-family: "Pathway Extreme", sans-serif;
-  margin-top: 75px;
+  margin-top: 20px;
   font-size: 30px;
   padding: 30px;
 }
@@ -14,7 +14,7 @@
   justify-content: center;
   font-size: 75px;
   font-weight: bolder;
-  background: -webkit-linear-gradient(#fff, #4d4a4a);
+  background: -webkit-linear-gradient(#102C57, #102C57);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -25,7 +25,7 @@
   font-size: 25px;
   font-weight: bold;
   text-align: center;
-  color: white;
+  color: #102C57;
 }
 
 .about {
@@ -35,7 +35,7 @@
   justify-content: center;
   font-size: 75px;
   font-weight: bolder;
-  background: -webkit-linear-gradient(#fff, #4d4a4a);
+  background: -webkit-linear-gradient(#102C57, #102C57);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -46,7 +46,7 @@
   font-size: 25px;
   font-weight: bold;
   text-align: center;
-  color: white;
+  color: #102C57;
 }
 
 .fleet_header {
@@ -56,7 +56,7 @@
   justify-content: center;
   font-size: 75px;
   font-weight: bolder;
-  background: -webkit-linear-gradient(#fff, #4d4a4a);
+  background: -webkit-linear-gradient(#102C57, #102C57);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -67,7 +67,7 @@
   font-size: 25px;
   font-weight: bold;
   text-align: center;
-  color: white;
+  color: #102C57;
 }
 
 .fleet_options {
@@ -77,7 +77,7 @@
 }
 
 .fleet_options h1 {
-  background: -webkit-linear-gradient(#fff, #4d4a4a);
+  background: -webkit-linear-gradient(#102C57, #102C57);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

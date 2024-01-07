@@ -1,8 +1,7 @@
 import React from "react";
-import footerLogo from "../images/Logo_footer.png";
 import "./Footer.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+//import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import fblogo from "../images/fblogo.png"
 import whatspplogo from "../images/whatspplogo.png"
 import instalogo from "../images/instalogo.png"
@@ -14,26 +13,25 @@ const Footer = () => {
   return (
     <footer className="container-fluid sec5 line footercol">
       <div className="row top">
-        <div className="col-sm-5 input">
+        {/* <div className="col-sm-5 input">
           <a href="/">
-            <img src={footerLogo} alt="logo" />
-            <h1>Estd. 2020</h1>
+            <img src={footerLogo} alt="logo" /> 
           </a>
-        </div>
-        <div className="col-sm-3 links">
+        </div> */}
+        {/* <div className="col-sm-3 links">
           <h5>Our Company</h5>
           <ul className="footer_nav">
             <li>
-              <a href="/About">About Us</a>
+              <a href="/Services">Services</a>
             </li>
             <li>
-              <a href="/Careers">Careers</a>
+              <a href="/Locations">Locations</a>
             </li>
             <li>
               <a href="/contact" >Contact Us </a>
             </li>
           </ul>
-        </div>
+        </div> */}
         <div className="col-sm-4 footerIcons">
            <a href="https://www.facebook.com/profile.php?id=100080565692833&mibextid=ZbWKwL"><img style = {{width:'35px', height: '35px', margin:'15px'}} src={fblogo} alt="logo" /></a>
            <a href="https://wa.me/12049993472"><img style = {{width:'35px', height: '35px', margin:'15px'}} src={whatspplogo} alt="logo" /></a>

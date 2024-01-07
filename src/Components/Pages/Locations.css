@@ -5,7 +5,7 @@
   font-family: 'Pathway Extreme', sans-serif;
   justify-content: center;
   margin-top: 30px;
-  background: -webkit-linear-gradient(#fff, #4d4a4a);
+  background: -webkit-linear-gradient(#102C57, #102C57);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -14,22 +14,16 @@
 .prime_container {
     margin-top: 50px;
     margin-bottom: 100px;
+    display: none;
 }
 
 .location_content {
-    color: white;
+    color: #102C57;
     font-size: 35px;
     font-weight: bold;
     padding: 10px;
     font-family: 'Pathway Extreme', sans-serif;
     text-align: center;
-}
-
-.locations {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
 }
 
 .locations_list {
@@ -48,7 +42,7 @@
     margin: 25px;
     width: 250px;
     height: 50px;
-    background-color: #191715;
+    background-color: #102C57;
     box-shadow: 0 2px 4px white;
     transition: all 0.3s ease-in-out;
   }
@@ -65,8 +59,8 @@
 
   .box:hover {
     transform: scale(1.2, 1.2);
-    background-color: #fff;
-    color: #191715;
+    background-color: #102C57;
+    color: white;
   }
 
   .box:hover::after {

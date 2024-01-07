@@ -1,11 +1,23 @@
 import React from "react";
-import logo from "../images/Logo.png";
+import logo from "../images/newLogo.png";
 import Nav from 'react-bootstrap/Nav';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+//import NavDropdown from 'react-bootstrap/NavDropdown';
 
-import "./Navigation.css";
+import "./NavUpdated.css";
 
 const Navigation = () => {
+
+  const scrollToSection = (sectionId, offset = 0) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      const offsetPosition = section.offsetTop - offset;
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth',
+      });
+    }
+  };
+
   return (
     <Nav defaultActiveKey="/home" as="ul" className="navigation">
       <Nav.Item as="li" className="nav-logo">
@@ -15,18 +27,16 @@ const Navigation = () => {
       </Nav.Item>
       <ul className="nav-bar"> 
         <Nav.Item as="li">
-          <Nav.Link style={{color:"white"}} href="/">Home</Nav.Link>
-        </Nav.Item>
-        < NavDropdown className="nav_dropdown" title="Company" id="nav-dropdown" style={{color: 'white'}}>
-          <NavDropdown.Item href="/About" >About Us</NavDropdown.Item>
-          <NavDropdown.Item href="/Careers">Careers</NavDropdown.Item>
-          <NavDropdown.Item href="/Locations">Locations</NavDropdown.Item>
-      </NavDropdown>
-        <Nav.Item as="li">
-          <Nav.Link style={{color:"white"}} href='/Services'>Services</Nav.Link>
+          <Nav.Link style={{color:"#FAF9F6"}} href="" onClick={() => scrollToSection('home', 150)}>About</Nav.Link>
         </Nav.Item>
         <Nav.Item as="li">
-          <Nav.Link style={{color:"white"}} href='/Contact'>Contact</Nav.Link>
+          <Nav.Link style={{color:"#FAF9F6"}} href="" onClick={() => scrollToSection('services', 235)}>Services</Nav.Link>
+        </Nav.Item>
+        <Nav.Item as="li">
+          <Nav.Link style={{color:"#FAF9F6"}} href='' onClick={() => scrollToSection('locations', 200)}>Locations</Nav.Link>
+        </Nav.Item>
+        <Nav.Item as="li">
+          <Nav.Link style={{color:"#FAF9F6"}} href='' onClick={() => scrollToSection('contact', 150)}>Contact</Nav.Link>
         </Nav.Item>
       </ul>
   </Nav>

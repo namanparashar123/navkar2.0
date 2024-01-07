@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
+
+.navigation{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Pathway Extreme", sans-serif;
+    background: #102C57;
+    padding: 10px;
+    color: #FAF9F6;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Pathway Extreme", sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nav-bar > li{
+    padding: 0px 30px;
+    color: #FAF9F6;
+}
+
