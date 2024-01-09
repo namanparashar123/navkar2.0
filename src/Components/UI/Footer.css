@@ -5,80 +5,24 @@
   padding: 10px;
 }
 
+.topRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerIcons{
+  padding: 0px 20px;
+}
+
+.footer_img{
+  padding: 0px 20px;
+}
+
 .footercol {
   background: -webkit-linear-gradient(#102C57, #102C57);
   font-family: "Pathway Extreme", sans-serif;
   margin-left: 20px;
-}
-
-.row.top {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.footerIcons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.col-sm-3.links {
-  margin-top: 20px;
-}
-
-.col-sm-5.input{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.links h5 {
-  background: -webkit-linear-gradient(0deg, #fff, #4d4a4a);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bolder;
-}
-
-.links li {
-  background: -webkit-linear-gradient(0deg, #fff, #4d4a4a);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.input {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 20px;
-}
-
-.input a {
-  text-decoration: none;
-}
-
-.input h1 {
-  display: flex;
-  justify-content: center;
-  color: white;
-  background: -webkit-linear-gradient(#fff, #4d4a4a);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.footer_nav {
-  list-style: none;
-}
-
-.footer_nav a {
-  color: white;
-  text-decoration: none;
-}
-
-.footer_nav a:hover {
-  color: lightslategrey;
 }
 
 .line {

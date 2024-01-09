@@ -3,7 +3,32 @@
 .main_div {
   font-family: "Pathway Extreme", sans-serif;
   color: #102C57;
-  margin-top: 100px;
+  margin-top: 125px;
+}
+
+.title-bg{
+  position: relative;
+  background-image: url("../images/titleImage.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 720px;
+}
+
+.title {
+  position: absolute;
+  top: 35%;
+  left: 17%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  font-weight: 700;
+  font-family: 'Pathway Extreme', sans-serif;
+  background: -webkit-linear-gradient(0deg, #102C57, #102C57);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .target {
@@ -62,9 +87,8 @@
 }
 
 .service_button_card:hover {
-  background-color: white;
-  color: #DAC0A3;
-  transition: 0.5s;
+  background-color: #FAF9F6;
+  color: #102C57;
 }
 
 .offer_cards {

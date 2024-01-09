@@ -31,23 +31,32 @@ export default function Contact() {
   return (
     <div>
       <section id="contact"></section>
-      <p className="contact_content"> REACH OUT TO US!!</p>
+      <p className="contact_content"> Reach Out To Us</p>
       <div className="forms">
       <form className="mainForm" ref={form} onSubmit={sendEmail}>
         <div className="formWord">
           <input
             className="input100"
             type="text"
-            name="user_name"
-            placeholder="Full Name"
+            name="user_first_name"
+            placeholder=" First name"
             required
           />
           <br />
           <input
             className="input100"
             type="text"
+            name="user_last_name"
+            placeholder="Last name"
+            required
+          />
+          </div>
+          <div className="formContact">
+          <input
+            className="input100"
+            type="text"
             name="user_phone"
-            placeholder="Phone  (optional)"
+            placeholder="Phone (optional)"
           />
           <br />
           <input
@@ -66,7 +75,9 @@ export default function Contact() {
             placeholder="Your Message..."
             required
           ></textarea>
+          </div>
           <br />
+          <div className="submitButton">
           <button type="submit" className="submitBtn">
             SUBMIT
           </button>

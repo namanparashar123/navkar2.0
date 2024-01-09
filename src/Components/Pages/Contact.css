@@ -8,8 +8,8 @@
   color: white;
   padding: 25px 50px 25px 50px;
   font-family: "Pathway Extreme", sans-serif;
-  font-size: 50px;
-  font-weight: bold;
+  font-size: 75px;
+  font-weight: bolder;
   text-align: center;
 }
 
@@ -20,27 +20,38 @@
 }
 
 .mainForm {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-family: "Pathway Extreme", sans-serif;
   margin-bottom: 50px;
   padding: 20px;
 }
 
 .formWord {
-  display: grid;
-  padding: 10px;
-  width: 75%;
-  justify-content: right;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
-.formMessage {
-  display: grid;
-  width: 75%;
-  justify-content: left;
-  margin-left: 20px;
+.formWord > input{
+  margin: 10px;
+}
+
+.formContact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.formContact > input{
+  margin: 10px;
+}
+
+.formMessage > textarea {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10px;
+  width: 437px;
+  margin-top: 10px;
 }
 
 .input100 {
@@ -56,8 +67,18 @@
   border: 1px solid #DAC0A3;
 }
 
+::placeholder{
+  color: #FAF9F6
+}
+
+.submitButton{
+  display: flex;
+  justify-content: center;
+}
+
 .submitBtn {
-  padding: 10px;
+  padding: 10px 30px;
+  font-size: 24px;
   background-color: #102C57;
   color: white;
   border: 0;

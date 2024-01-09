@@ -6,23 +6,8 @@
   flex-direction: column;
   background-color: #FAF9F6;
   width: 100%;
+  overflow-x:hidden;
 }
-
-.title {
-  font-size: 100px;
-  font-weight: 700;
-  font-family: 'Pathway Extreme', sans-serif;
-  background: -webkit-linear-gradient(0deg, #102C57, #102C57);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-align: center;
-  margin-top: 450px;
-}
-
-/* .title-bg {
-  height: 1000px;
-} */
 
 @media (max-width: 768px) {
   .title{

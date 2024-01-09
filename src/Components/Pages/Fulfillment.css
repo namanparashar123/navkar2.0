@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
+
+.fulfillment_container{
+    font-family: "Pathway Extreme", sans-serif;
+    color: #102C57;
+}
+
+.fulfillment-bg{
+    position: relative;
+    background-image: url("../images/fulfillment.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 720px;
+}
+  
+.fulfillmentTitle {
+    position: absolute;
+    top: 50%;
+    left: 34%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-weight: 700;
+    background: -webkit-linear-gradient(0deg, #102C57, #102C57);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .fulfillment_content{
+    padding: 50px;
+}
+
+.fulfillment_heading {
+    padding: 75px 100px 50px 100px;
+    font-weight: bolder;
+    background: -webkit-linear-gradient(#102C57, #102C57);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.fulfillment_content > h1{
+    font-weight: bolder;
+    font-size: 40px;
+    background: -webkit-linear-gradient(#102C57, #102C57);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.fulfillment_content > ul{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.fulfillment_content > ul > li{
+    padding: 10px;
+}
+
+.fulfillment_content > p{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.fulfillment_content > h4{
+    font-size: 28px;
+    font-weight: bolder;
+}

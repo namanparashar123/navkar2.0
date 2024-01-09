@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
+
+.main_container{
+    font-family: "Pathway Extreme", sans-serif;
+    color: #102C57;
+}
+
+.warehousing-bg{
+    position: relative;
+    background-image: url("../images/warehousing.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 720px;
+}
+
+.titleWarehouse{
+    position: absolute;
+    top: 50%;
+    left: 31%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-weight: 700;
+    font-family: 'Pathway Extreme', sans-serif;
+    background: -webkit-linear-gradient(0deg, #102C57, #102C57);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.warehousing_content{
+    padding: 50px;
+}
+
+.main_heading {
+    padding: 75px 100px 50px 100px;
+    font-weight: bolder;
+    background: -webkit-linear-gradient(#102C57, #102C57);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.warehousing_content > h1{
+    font-weight: bolder;
+    font-size: 40px;
+    background: -webkit-linear-gradient(#102C57, #102C57);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.warehousing_content > ul{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.warehousing_content > ul > li{
+    padding: 10px;
+}
+
+.warehousing_content > p{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.warehousing_content > h4{
+    font-size: 28px;
+    font-weight: bolder;
+}

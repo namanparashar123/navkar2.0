@@ -1,126 +1,62 @@
 @import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
 
-.locations_container {
-  display: flex;
-  font-family: 'Pathway Extreme', sans-serif;
-  justify-content: center;
-  margin-top: 30px;
+.main{
+  margin-top: 100px;
+}
+
+.locations_heading {
+  padding: 75px 100px 50px 100px;
+  font-weight: bolder;
+  font-family: "Pathway Extreme", sans-serif;
+  font-size: 50px;
   background: -webkit-linear-gradient(#102C57, #102C57);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
-.prime_container {
-    margin-top: 50px;
-    margin-bottom: 100px;
-    display: none;
+.locations{
+  display: flex;
+  padding: 50px;
+  margin: 25px 40px 40px 35px;
+  color: #FAF9F6;
+  font-family: "Pathway Extreme", sans-serif;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.location_content {
-    color: #102C57;
-    font-size: 35px;
-    font-weight: bold;
-    padding: 10px;
-    font-family: 'Pathway Extreme', sans-serif;
-    text-align: center;
+.locations h1 {
+  background: -webkit-linear-gradient(#FAF9F6, #FAF9F6);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+  text-align: center;
 }
 
-.locations_list {
-    font-size: 34px;
-    font-family: 'Pathway Extreme', sans-serif;
-    width: 100%;
-    padding: 0 auto;
-    color: white;
-    text-align: center;
+.locationCards_card1,
+.locationCards_card2 {
+  width: 40%;
+  padding: 50px 30px;
+  margin-left: 10px;
+  border-radius: 25px;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.3);
+  transition: all 0.3s ease-in-out;
+  background-color: #102C57;
 }
 
-.box {
-    font-size: 25px;
-    display: block;
-    padding-top: 5px;
-    margin: 25px;
-    width: 250px;
-    height: 50px;
-    background-color: #102C57;
-    box-shadow: 0 2px 4px white;
-    transition: all 0.3s ease-in-out;
-  }
-
-  .box::after {
-    content: '';
-    z-index: -1;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    box-shadow: 0 5px 15px white;
-    transition: opacity 0.3s ease-in-out;
-  }
-
-  .box:hover {
-    transform: scale(1.2, 1.2);
-    background-color: #102C57;
-    color: white;
-  }
-
-  .box:hover::after {
-    opacity: 1;
-  }
-
-  .topRow{
-    display: flex;
-    justify-content: center;
-  }
-
-  .bottomRow{
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
-    margin-bottom: 50px;
-  }
-
-  @media (max-width: 768px) {
-    /* Styles for screens up to 768px */
-
-    .prime_container {
-      display: none;
-  }
-
-    .location_content {
-      font-size: 30px;
-    }
-  
-    .locations_list {
-      font-size: 28px;
-    }
-  
-    .box {
-      font-size: 20px;
-      width: 200px;
-      height: 40px;
-      margin: 20px;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    /* Styles for screens up to 480px */
-
-    .prime_container {
-      display: none;
-  }
-
-    .location_content {
-      font-size: 25px;
-    }
-  
-    .locations_list {
-      font-size: 24px;
-    }
-  
-    .box {
-      font-size: 18px;
-      width: 180px;
-      height: 35px;
-      margin: 15px;
-    }
-  }
+.areaButton_card {
+  display: flex;
+  width: 30%;
+  padding: 10px;
+  margin-left: 35%;
+  background-color: #FAF9F6;
+  color: #102C57;
+  border: 0;
+  border-radius: 25px;
+  text-decoration: none;
+  justify-content: center;
+}

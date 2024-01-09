@@ -17,6 +17,23 @@ import { useEffect } from "react";
 
 const Home = () => {
 
+  // const scrollToSectionWithDelay = (sectionId, offset = 0, delay = 1000) => {
+  //   const section = document.getElementById(sectionId);
+  //   if (section) {
+  //     // Open new tab
+  //     window.open('/section', '_blank');
+  
+  //     // Add a delay before scrolling
+  //     setTimeout(() => {
+  //       const offsetPosition = section.offsetTop - offset;
+  //       window.scrollTo({
+  //         top: offsetPosition,
+  //         behavior: 'smooth',
+  //       });
+  //     }, delay);
+  //   }
+  // };
+
   useEffect(() => {
     const cards = document.querySelectorAll('.offer_cards');
 
@@ -42,6 +59,11 @@ const Home = () => {
 
   return (
     <div className="main_div">
+      <div className='title-bg'>
+        <h1 className='title'>
+          Logistics Made Simple.
+        </h1>
+      </div>
       <section id="home">
       <h2 className="target">
         We are a fast-growing company that delivers over 450,000 packages a
@@ -56,24 +78,6 @@ const Home = () => {
         <br />
         We can offer you excellent delivery options for some of the lowest
         prices available within Canada. 
-      </h3>
-      <br />
-      <h3>
-        Navkar Courier is a leading courier company that provides delivery
-        solutions in Manitoba and Ontario. Our technology-powered services
-        seamlessly connect your e-commerce applications to our delivery network
-        which is continuing to expand.
-        <br />
-        <br /> 
-      </h3>
-      <br />
-      <h3>
-        Navkar Courier is a leading courier company that provides delivery
-        solutions in Manitoba and Ontario. Our technology-powered services
-        seamlessly connect your e-commerce applications to our delivery network
-        which is continuing to expand.
-        <br />
-        <br />
       </h3>
       <br />
       </section>
@@ -136,20 +140,20 @@ const Home = () => {
           <FontAwesomeIcon className="icons" icon={faWarehouse} size="10x" />
           <h1>Warehousing</h1>
           <br />
-          <p>Use our people, process and technology to deliver your packages</p>
-          <a className="service_button_card" href="/Warehousing">
-            See more
+          <p>Modern technology and a strong infrastructure are features of our state-of-the-art warehouse, which guarantees the efficiency, security, and safety of your inventory.</p>
+          <a className="service_button_card" href="/Warehousing" target="_blank">
+            Learn more
           </a>
         </div>
         <div className="offer_cards_card2">
           <FontAwesomeIcon className="icons" icon={faCheck} size="10x" />
-          <h1>Fullfillment</h1>
+          <h1>Fulfillment</h1>
           <br />
           <p>
-            Want to know where your package is or need to book a re-delivery?
+          Since every transaction is different, we provide a comprehensive fulfillment service that includes kit assembly strategically to improve your client experience.
           </p>
-          <a className="service_button_card" href="/Fulfillment">
-            Coming soon
+          <a className="service_button_card" href="/Fulfillment" target="_blank">
+            See more
           </a>
         </div>
         <div className="offer_cards_card3">
@@ -157,9 +161,9 @@ const Home = () => {
           <h1>Shipping</h1>
           <br />
           <p>
-          Use our people, process and technology to deliver your packages
+          We recognize how crucial prompt and dependable shipment is to improving your online buying experience. Our shipping services are made to be flexible, and worry-free for you.
           </p>
-          <a className="service_button_card" href="/Shipping">
+          <a className="service_button_card" href="/Shipping" target="_blank">
             Ship with us
           </a>
         </div>
