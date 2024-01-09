@@ -167,6 +167,18 @@
 /* Media Queries */
 @media (max-width: 768px) {
   /* Styles for screens up to 768px */
+
+  .title{
+    font-size: 70px;
+    font-family: 'Pathway Extreme', sans-serif;
+    background: -webkit-linear-gradient(0deg, #102C57, #102C57);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-right: 120px;
+  }
+
   .button_div {
     flex-wrap: wrap;
   }
@@ -200,6 +212,26 @@
     padding: 50px 30px;
     font-size: 40px;
   }
+
+  .title-bg{
+    position: relative;
+    background-image: url("../images/titleImage.png");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 720px;
+  }
+
+  .title{
+    font-size: 70px;
+    font-family: 'Pathway Extreme', sans-serif;
+    background: -webkit-linear-gradient(0deg, #102C57, #102C57);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-right: 100px;
+  }
   
   .main_div h3 {
     padding: 0px 30px;
@@ -210,6 +242,24 @@
     width: 100%;
     margin-left: 0;
     margin-top: 10px;
+  }
+
+  .offer_cards {
+    display: flex;
+    padding: 50px;
+    margin: 25px 40px 40px 35px;
+    color: #FAF9F6;
+    font-family: "Pathway Extreme", sans-serif;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+  }
+  
+  .offer_cards.visible{
+    opacity: 1;
+    transform: translateY(0);
   }
   
   .offer_cards {

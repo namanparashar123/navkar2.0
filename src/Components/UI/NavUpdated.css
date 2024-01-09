@@ -29,3 +29,30 @@
     color: #FAF9F6;
 }
 
+@media (max-width: 768px) {
+    .navigation {
+      flex-wrap: wrap;
+      height: auto;
+    }
+  
+    .nav-logo {
+      margin-left: 25px;
+    }
+  
+    .nav-bar {
+      flex-direction: row;
+      align-items: stretch;
+    }
+  
+    .nav-bar li {
+      padding: 10px;
+      font-size: 15px;   
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .navigation {
+      padding: 0 1rem;
+    }
+  }
+

@@ -97,24 +97,20 @@
 @media (max-width: 480px) {
   /* Styles for screens up to 480px */
   .contact_content {
-    font-size: 18px;
+    font-size: 30px;
     padding: 10px 20px 10px 20px;
   }
 
-  .mainForm {
-    flex-direction: column;
-  }
-
-  .formWord {
-    margin-right: 50px;
+  .formMessage > textarea {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 25px;
+    width: 400px;
+    margin-top: 10px;
   }
 
   .submitBtn {
     font-size: 16px;
-    padding: 8px;
-  }
-
-  .formMessage {
-    width: 55%;
   }
 }

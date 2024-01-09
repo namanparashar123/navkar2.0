@@ -106,8 +106,12 @@
   .fleet_info p,
   .fleet_options,
   .fleet_options h1,
-  .fleet_options img,
   .fleet {
+    padding: 10px;
+  }
+
+  .fleet_options img{
+    margin-left: -80px;
     padding: 10px;
   }
 

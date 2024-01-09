@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import manitobaMap from "../images/ManitobaFFF.jpg";
-import ontarioMap from "../images/OntarioFFF.jpg"
+// import manitobaMap from "../images/ManitobaFFF.jpg";
+// import ontarioMap from "../images/OntarioFFF.jpg"
 import "./Locations.css";
 
 const Locations = () => {

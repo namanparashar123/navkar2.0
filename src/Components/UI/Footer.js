@@ -21,7 +21,7 @@ const Footer = () => {
            <a href="mailto:info@navkarcourier.ca"><img style = {{width:'40px', height: '30px', margin:'15px'}} src={gmailLogo} alt="logo" /></a>
         </div>
         <div className="flex _child footer_img">
-          <a href="https://winnipeg-chamber.com/" target="_blank"><img style = {{width:'200px', height: '75px', margin:'15px'}} src={chamberOfCommerce} alt="chamber_of_commerce"/></a>
+          <a href="https://winnipeg-chamber.com/" target="_blank" rel="noopener noreferrer"><img style = {{width:'200px', height: '75px', margin:'15px'}} src={chamberOfCommerce} alt="chamber_of_commerce"/></a>
         </div>
       </div>
 

@@ -24,7 +24,7 @@
   margin: 25px 40px 40px 35px;
   color: #FAF9F6;
   font-family: "Pathway Extreme", sans-serif;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -59,4 +59,24 @@
   border-radius: 25px;
   text-decoration: none;
   justify-content: center;
+}
+@media (max-width: 480px) {
+.locations {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.areaButton_card {
+  width: 100%;
+  margin-left: 0;
+  margin-top: 10px;
+}
+
+.locationCards_card1,
+.locationCards_card2 {
+  padding: 20px;
+  width: 100%;
+  margin-bottom: 10px;
+}
 }

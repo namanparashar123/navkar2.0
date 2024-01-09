@@ -31,26 +31,11 @@
 }
 
 @media (max-width: 768px) {
-  .row.top {
-  margin-left: 0;
-  text-align: center;
-  align-items: center;
+  .topRow{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    text-align: center;
+    align-items: center;
   }
-
-  .footer_nav{
-    padding: 10px;
-  }
-  
-  .col-sm-3.links {
-  margin-top: 10px;
-  }
-  
-  .input {
-  flex-direction: column;
-  }
-  
-  .input h1 {
-  text-align: center;
-  align-items: center;
-  }
-  }
+}
