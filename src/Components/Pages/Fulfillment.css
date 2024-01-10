@@ -89,19 +89,17 @@
 }
 
 @media (max-width: 480px) {
-    .fulfillmentTitle{
-        font-size: 55px;
-        margin-left: -75px;
-    }
-
-    .fulfillment-bg{
-        position: relative;
-        background-image: url("../images/fulfillment.png");
-        background-position: center;
-        background-size: auto;
-        background-repeat: no-repeat;
-        height: 720px;
-    }
+    .fulfillmentTitle {
+        font-size: 45px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 20px;
+      }
+    
+      .fulfillment-bg {
+        background-size: cover;
+      height: 450px;
+      }
     
     .fulfillment_content > h1{
         display: none;
@@ -120,7 +118,7 @@
     }
 
     .fulfillment_content > ul{
-        font-size: 20px;
+        font-size: 18px;
         font-weight: bold;
     }
 

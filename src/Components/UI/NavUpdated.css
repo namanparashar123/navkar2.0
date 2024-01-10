@@ -29,30 +29,14 @@
     color: #FAF9F6;
 }
 
-@media (max-width: 768px) {
-    .navigation {
-      flex-wrap: wrap;
-      height: auto;
-    }
-  
-    .nav-logo {
-      margin-left: 25px;
-    }
-  
+@media only screen and (max-width: 480px) {
     .nav-bar {
-      flex-direction: row;
-      align-items: stretch;
+        flex-direction: row; /* Stack items vertically for smaller screens */
+        font-size: 16px; /* Adjust font size for even smaller screens */
+        margin-left: -15px;
     }
-  
-    .nav-bar li {
-      padding: 10px;
-      font-size: 15px;   
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .navigation {
-      padding: 0 1rem;
-    }
-  }
 
+    .nav-bar > li {
+        padding: 10px 0px; /* Add vertical padding for better spacing */
+    }
+}

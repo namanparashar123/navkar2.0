@@ -44,7 +44,7 @@ const Shipping = () => {
                 <br />
                 <br />
                 
-                <h1>Reasons to Select Navkar Courier for Delivery:</h1>
+                <h2 className="shipping_mobile_view">Reasons to Select Navkar Courier for Delivery:</h2>
                 <br />
                 <br />
                 <p><span style={underline}>Reliability:</span> You can rely on us to deliver your packages undamaged and on schedule.</p>

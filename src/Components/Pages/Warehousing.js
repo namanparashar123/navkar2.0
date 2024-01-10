@@ -49,7 +49,7 @@ const Warehousing = () => {
             <br></br>
             <br />
             
-            <h1>Why Opt for Us?</h1>
+            <h2 className="warehousing_mobile_view">Why Opt for Us?</h2>
             <br />
             <br />
             <p><span style={underline}>Efficiency:</span> Our technology-driven approach and streamlined processes provide efficient operations.</p>

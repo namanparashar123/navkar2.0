@@ -206,8 +206,8 @@
   }
 }
 
-@media (max-width: 480px) {
-  /* Styles for screens up to 480px */
+ /* @media (max-width: 480px) {
+  /* Styles for screens up to 480px 
   .target {
     padding: 50px 30px;
     font-size: 40px;
@@ -274,6 +274,55 @@
   .offer_cards_card2,
   .offer_cards_card3 {
     padding: 20px;
+    margin-bottom: 10px;
+  }
+} */
+
+@media only screen and (max-width: 480px) {
+  .title {
+    font-size: 50px;
+    margin-left: 22px;
+  }
+
+  .title-bg {
+    background-size: auto;
+  }
+
+  .target {
+    font-size: 30px;
+    padding: 30px 10px;
+  }
+
+  .main_div h3 {
+    padding: 0px 10px;
+  }
+
+  .service_button,
+  .service_button_card {
+    width: 100%;
+  }
+
+  .offer_cards {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .offer_cards h1 {
+    font-size: 18px;
+  }
+
+  .offer_cards p {
+    font-size: 12px;
+  }
+
+  .icons {
+    padding-bottom: 5px;
+  }
+
+  .offer_cards_card1,
+  .offer_cards_card2,
+  .offer_cards_card3 {
+    padding: 10px;
     margin-bottom: 10px;
   }
 }

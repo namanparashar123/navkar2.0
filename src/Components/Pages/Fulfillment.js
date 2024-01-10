@@ -45,7 +45,7 @@ const Fulfillment = () => {
           <li><span style={underline}>Customizable Solutions:</span> Adapt our kitting and fulfillment services to your particular needs. We can realize your concept with unique kit configurations, unique packaging, or personalized inserts.</li>
         </ul>
         
-        <h1>Advantages of Selecting Navkar Courier for Kitting and Fulfillment:</h1>
+        <h2 className='fulfillment_mobile_view'>Advantages of Selecting Navkar Courier for Kitting and Fulfillment:</h2>
         <br />
         <br />
         <p><span style={underline}>Time Savings:</span> Let us manage the logistics and kitting procedures so you can concentrate on growing your business.</p>

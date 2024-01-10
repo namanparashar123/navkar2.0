@@ -89,7 +89,7 @@
     font-weight: bolder;
 }
 
-@media (max-width: 480px) {
+/*@media (max-width: 480px) {
     .titleWarehouse{
         font-size: 55px;
         margin-left: -90px;
@@ -136,4 +136,43 @@
         font-size: 25px;
         font-weight: bolder;
     }
-}
+}*/
+
+@media (max-width: 480px) {
+    .titleWarehouse {
+      font-size: 45px;
+      left: 50%;
+      transform: translateX(-50%);
+      margin-top: 20px;
+    }
+  
+    .warehousing-bg {
+        background-size: cover;
+        height: 450px;
+    }
+  
+    .warehousing_content > h1 {
+      display: none;
+    }
+  
+    .warehousing_mobile_view {
+      font-size: 25px;
+    }
+  
+    .warehousing_content > ul {
+      font-size: 18px;
+    }
+  
+    .warehousing_content > ul > li {
+      padding: 8px;
+    }
+  
+    .warehousing_content > p {
+      font-size: 18px;
+    }
+  
+    .warehousing_content > h4 {
+      font-size: 20px;
+      text-align: center;
+    }
+  }

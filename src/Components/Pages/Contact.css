@@ -23,6 +23,8 @@
   font-family: "Pathway Extreme", sans-serif;
   margin-bottom: 50px;
   padding: 20px;
+  box-sizing: border-box; /* Include padding and border in total width */
+  max-width: 100%; /* Make the form responsive */
 }
 
 .formWord {
@@ -94,23 +96,33 @@
   transition: 0.5s;
 }
 
-@media (max-width: 480px) {
-  /* Styles for screens up to 480px */
+
+
+@media only screen and (max-width: 480px) {
   .contact_content {
-    font-size: 30px;
-    padding: 10px 20px 10px 20px;
+    font-size: 48px; /* Adjust font size for smaller screens */
+    padding: 15px 20px; /* Adjust padding for smaller screens */
+  }
+
+  .mainForm {
+    margin-bottom: 30px; /* Adjust margin for smaller screens */
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .formWord > input{
+    width: 150px;
+  }
+
+  .formContact > input{
+    width: 150px;
   }
 
   .formMessage > textarea {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 25px;
-    width: 400px;
-    margin-top: 10px;
+    width: 320px;
   }
 
   .submitBtn {
-    font-size: 16px;
+    padding: 10px 20px; /* Adjust padding for smaller screens */
+    font-size: 18px; /* Adjust font size for smaller screens */
   }
 }
