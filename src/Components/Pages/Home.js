@@ -141,9 +141,7 @@ const Home = () => {
           <h1>Warehousing</h1>
           <br />
           <p>Modern technology and a strong infrastructure are features of our state-of-the-art warehouse, which guarantees the efficiency, security, and safety of your inventory.</p>
-          <a className="service_button_card" href="/Warehousing" target="_blank">
-            Learn more
-          </a>
+          <a className="service_button_card" href="/Warehousing" target="_blank">Store With Us</a>
         </div>
         <div className="offer_cards_card2">
           <FontAwesomeIcon className="icons" icon={faCheck} size="10x" />
@@ -153,7 +151,7 @@ const Home = () => {
           Since every transaction is different, we provide a comprehensive fulfillment service that includes kit assembly strategically to improve your client experience.
           </p>
           <a className="service_button_card" href="/Fulfillment" target="_blank">
-            See more
+            Pack With Us
           </a>
         </div>
         <div className="offer_cards_card3">
@@ -164,7 +162,7 @@ const Home = () => {
           We recognize how crucial prompt and dependable shipment is to improving your online buying experience. Our shipping services are made to be flexible, and worry-free for you.
           </p>
           <a className="service_button_card" href="/Shipping" target="_blank">
-            Ship with us
+            Ship With Us
           </a>
         </div>
       </div>

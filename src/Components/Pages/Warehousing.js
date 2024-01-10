@@ -36,7 +36,7 @@ const Warehousing = () => {
             Modern technology and a strong infrastructure are features of our state-of-the-art warehouse, which guarantees the efficiency, security, and safety of your inventory.
             </h1>
             <br />
-            <h1>Key features:</h1> 
+            <h2 className="warehousing_mobile_view">Key features:</h2> 
             <ul>
                 <li><span style={underline}>Secure Storage:</span> To protect your priceless goods, our warehouse is outfitted with cutting-edge security measures, such as access control, CCTV cameras, and round-the-clock monitoring.</li>
                 <li><span style={underline}>Climate-Controlled Environment:</span> Because we recognize that commodities vary widely, we provide a climate-controlled environment to safeguard goods that are susceptible to changes in humidity and temperature.</li>
@@ -62,7 +62,7 @@ const Warehousing = () => {
             <br />
             <br />
             <br />
-            <h4>Visit <a href="https://www.navkarcourier.ca">navkarcourier.ca</a> to learn about the dependability and simplicity of our warehousing solutions. Put your trust in us as your go-to partner for efficient inventory control and flawless order fulfillment.</h4>
+            <h4>Visit us to learn about the dependability and simplicity of our warehousing solutions. Put your trust in us as your go-to partner for efficient inventory control and flawless order fulfillment.</h4>
             </div>
         </div>
     )

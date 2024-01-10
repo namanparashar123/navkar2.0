@@ -32,7 +32,7 @@ const Fulfillment = () => {
         <h1 className='fulfillment_heading'>Greetings from Navkar Courier Ltd., your one-stop shop for professional kitting services and easy order fulfillment. Since every transaction is different, we provide a comprehensive fulfillment service that includes kit assembly strategically to improve your client experience. We handle every stage, from order processing to kitting and delivery.</h1>
         <br />
         
-        <h1>Important characteristics:</h1>
+        <h2 className='fulfillment_mobile_view'>Important characteristics:</h2>
         <ul>
           <li><span style={underline}>Order Fulfillment:</span> From the time an order is placed on your website, accuracy and efficiency are guaranteed by our automated order processing system. Order verification, payment processing, and smooth integration into our fulfillment pipeline are all handled by us.</li>
           <li><span style={underline}>Kitting Expertise:</span> With our skilled kitting services, you may improve your product offers. We customize our kitting services to fit your unique requirements, whether that involves putting together subscription boxes, putting together promotional bundles, or bundling complementing items.</li>

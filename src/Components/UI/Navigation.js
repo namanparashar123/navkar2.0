@@ -33,7 +33,7 @@ const Navigation = () => {
           <Nav.Link style={{color:"#FAF9F6"}} href="" onClick={() => scrollToSection('services', 235)}>Services</Nav.Link>
         </Nav.Item>
         <Nav.Item as="li">
-          <Nav.Link style={{color:"#FAF9F6"}} href='/Locations' target="_blank" onClick={() => scrollToSection('locations', 200)}>Areas Serviced</Nav.Link>
+          <Nav.Link style={{color:"#FAF9F6"}} href='/Locations' target="_blank" onClick={() => scrollToSection('locations', 200)}>Locations</Nav.Link>
         </Nav.Item>
         <Nav.Item as="li">
           <Nav.Link style={{color:"#FAF9F6"}} href='' onClick={() => scrollToSection('contact', 150)}>Contact</Nav.Link>

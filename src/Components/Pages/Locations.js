@@ -27,16 +27,16 @@ const Locations = () => {
         <div className="locationCards_card1">
           <h1>Manitoba</h1>
           <br />
-          <button className="areaButton_card" href="">
+          {/* <button className="areaButton_card" href="">
           Area list coming soon!
-          </button>
+          </button> */}
         </div>
         <div className="locationCards_card2">
           <h1>Ontario</h1>
           <br />
-          <button className="areaButton_card">
+          {/* <button className="areaButton_card">
             Area list coming soon!
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

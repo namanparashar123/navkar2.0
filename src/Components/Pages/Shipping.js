@@ -31,10 +31,9 @@ const Shipping = () => {
             <div className="shipping_content">
                 <h1 className="shipping_heading">At Navkar Courier Ltd., we recognize how crucial prompt and dependable shipment is to improving your online buying experience. Our shipping services are made to be flexible, convenient, and worry-free for you.
                 <br />
+                </h1>
                 <br />
-                Whether you're ordering one item or several, you can rely on us to efficiently and carefully deliver your orders to your home.</h1>
-                <br />
-                <h1>Important Aspects of Our Shipping Offerings:</h1>
+                <h2 className="shipping_mobile_view">Important Aspects of Our Shipping Offerings:</h2>
                 <ul>
                     <li><span style={underline}>Quick and Dependable:</span> We put a high priority on processing and shipping your orders quickly, making sure they get to you as soon as possible without sacrificing security.</li>
                     <li><span style={underline}>Adaptable Choices:</span> A variety of delivery solutions that are customized to your needs are available. We can handle both regular and expedited shipping, depending on your needs. regular shipping is ideal for budget-conscious orders.</li>
@@ -58,7 +57,7 @@ const Shipping = () => {
                 <br />
                 <br />
                 <br />
-                <h4>Visit <a href="https://www.navkarcourier.ca">navkarcourier.ca</a> to enjoy the ease of dependable and smooth shipping services. We pledge to make your online purchase delightful from the time you click "checkout" until your delivery arrives at your door.</h4>
+                <h4>Visit us to enjoy the ease of dependable and smooth shipping services. We pledge to make your online purchase delightful from the time you click "checkout" until your delivery arrives at your door.</h4>
             </div>
         </div>
     )

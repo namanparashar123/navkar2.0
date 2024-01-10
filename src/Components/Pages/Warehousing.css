@@ -48,7 +48,19 @@
 
 .warehousing_content > h1{
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 30px;
+    background: -webkit-linear-gradient(#102C57, #102C57);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.warehousing_mobile_view{
+    font-weight: bolder;
+    font-size: 30px;
     background: -webkit-linear-gradient(#102C57, #102C57);
     background-clip: text;
     -webkit-background-clip: text;
@@ -68,7 +80,7 @@
 }
 
 .warehousing_content > p{
-    font-size: 28px;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -94,6 +106,10 @@
     
     
     .warehousing_content > h1{
+        display: none;
+    }
+
+    .warehousing_mobile_view{
         font-weight: bolder;
         font-size: 30px;
         background: -webkit-linear-gradient(#102C57, #102C57);

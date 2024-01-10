@@ -47,7 +47,19 @@
 
 .fulfillment_content > h1{
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 30px;
+    background: -webkit-linear-gradient(#102C57, #102C57);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.fulfillment_mobile_view{
+    font-weight: bolder;
+    font-size: 30px;
     background: -webkit-linear-gradient(#102C57, #102C57);
     background-clip: text;
     -webkit-background-clip: text;
@@ -67,7 +79,7 @@
 }
 
 .fulfillment_content > p{
-    font-size: 28px;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -92,6 +104,10 @@
     }
     
     .fulfillment_content > h1{
+        display: none;
+    }
+
+    .fulfillment_mobile_view{
         font-weight: bolder;
         font-size: 30px;
         background: -webkit-linear-gradient(#102C57, #102C57);
