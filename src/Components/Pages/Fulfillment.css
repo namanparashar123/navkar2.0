@@ -178,3 +178,10 @@
         font-weight: bolder;
     }
 }
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .fulfillmentTitle{
+      text-align: center;
+      margin-left: -20px;
+    }
+  }

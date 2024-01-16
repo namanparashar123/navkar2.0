@@ -278,3 +278,10 @@
       text-align: center;
     }
   }
+
+  @media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .titleWarehouse{
+      text-align: center;
+      margin-left: -40px;
+    }
+  }
