@@ -69,6 +69,33 @@
     text-align: center;
 }
 
+.fulfillmentCards {
+    display: flex;
+    padding: 50px;
+    margin: 25px 40px 40px 35px;
+    color: #FAF9F6;
+    font-family: "Pathway Extreme", sans-serif;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fulfillmentCards > h1{
+    font-weight: bolder;
+}
+
+.fulfillmentCards_card1,
+.fulfillmentCards_card2,
+.fulfillmentCards_card3 {
+  width: 40%;
+  padding: 50px 30px;
+  margin-left: 10px;
+  border-radius: 25px;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.3);
+  transition: all 0.3s ease-in-out;
+  background-color: #102C57;
+  text-align: center;
+}
+
 .fulfillment_content > ul{
     font-size: 25px;
     font-weight: bold;
@@ -116,6 +143,24 @@
         justify-content: center;
         text-align: center;
     }
+
+    .fulfillmentCards{
+        padding: 10px;
+  display: flex;
+  flex-direction: column;
+    }
+
+    .fulfillmentCards > h1{
+        font-weight: bolder;
+    }
+
+    .fulfillmentCards_card1,
+    .fulfillmentCards_card2,
+    .fulfillmentCards_card3 {
+        padding: 20px;
+        width: 100%;
+        margin-bottom: 10px;
+}
 
     .fulfillment_content > ul{
         font-size: 18px;

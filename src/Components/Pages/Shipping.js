@@ -47,14 +47,20 @@ const Shipping = () => {
                 <h2 className="shipping_mobile_view">Reasons to Select Navkar Courier for Delivery:</h2>
                 <br />
                 <br />
-                <p><span style={underline}>Reliability:</span> You can rely on us to deliver your packages undamaged and on schedule.</p>
-                <br />
-                <p><span style={underline}>Convenience:</span> With numerous options, get a hassle-free shipping experience.</p>
-                <br />
-                <p><span style={underline}>Global Reach:</span> We serve clients all around the world, whether they are domestic or foreign.</p>
-                <br />
-                <br />
-                <br />
+                <div className="shippingCards">
+                  <div className="shippingCards_card1">
+                    <h1>Reliability</h1>
+                    <p> You can rely on us to deliver your packages undamaged and on schedule.</p>
+                  </div>
+                  <div className="shippingCards_card2">
+                    <h1>Convenience</h1>
+                    <p>With numerous options, get a hassle-free shipping experience.</p>
+                  </div>
+                  <div className="shippingCards_card3">
+                    <h1>Global Reach</h1>
+                    <p>We serve clients all around the world, whether they are domestic or foreign</p>
+                  </div>
+                </div>
                 <br />
                 <br />
                 <h4>Visit us to enjoy the ease of dependable and smooth shipping services. We pledge to make your online purchase delightful from the time you click "checkout" until your delivery arrives at your door.</h4>

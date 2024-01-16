@@ -70,6 +70,33 @@
     text-align: center;
 }
 
+.warehousingCards {
+    display: flex;
+    padding: 50px;
+    margin: 25px 40px 40px 35px;
+    color: #FAF9F6;
+    font-family: "Pathway Extreme", sans-serif;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.warehousingCards > h1{
+    font-weight: bolder;
+}
+
+.warehousingCards_card1,
+.warehousingCards_card2,
+.warehousingCards_card3 {
+  width: 40%;
+  padding: 50px 30px;
+  margin-left: 10px;
+  border-radius: 25px;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.3);
+  transition: all 0.3s ease-in-out;
+  background-color: #102C57;
+  text-align: center;
+}
+
 .warehousing_content > ul{
     font-size: 25px;
     font-weight: bold;
@@ -89,54 +116,6 @@
     font-weight: bolder;
 }
 
-/*@media (max-width: 480px) {
-    .titleWarehouse{
-        font-size: 55px;
-        margin-left: -90px;
-    }
-
-    .warehousing-bg{
-        position: relative;
-        background-image: url("../images/warehousing.png");
-        background-position: center;
-        background-size: auto;
-        background-repeat: no-repeat;
-        height: 720px;
-      }
-    
-    
-    .warehousing_content > h1{
-        display: none;
-    }
-
-    .warehousing_mobile_view{
-        font-weight: bolder;
-        font-size: 30px;
-        background: -webkit-linear-gradient(#102C57, #102C57);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .warehousing_content > ul{
-        font-size: 20px;
-        font-weight: bold;
-    }
-
-    .warehousing_content > p{
-        font-size: 20px;
-        font-weight: bold;
-    }
-
-    .warehousing_content > h4{
-        text-align: center;
-        font-size: 25px;
-        font-weight: bolder;
-    }
-}*/
 
 @media (max-width: 480px) {
     .titleWarehouse {
@@ -158,6 +137,24 @@
     .warehousing_mobile_view {
       font-size: 25px;
     }
+
+    .warehousingCards{
+        padding: 10px;
+  display: flex;
+  flex-direction: column;
+    }
+
+    .warehousingCards > h1{
+        font-weight: bolder;
+    }
+
+    .warehousingCards_card1,
+    .warehousingCards_card2,
+    .warehousingCards_card3 {
+        padding: 20px;
+        width: 100%;
+        margin-bottom: 10px;
+}
   
     .warehousing_content > ul {
       font-size: 18px;
@@ -173,6 +170,111 @@
   
     .warehousing_content > h4 {
       font-size: 20px;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .titleWarehouse {
+      font-size: 60px;
+      left: 50%;
+      transform: translateX(-50%);
+      margin-top: 20px;
+    }
+  
+    .warehousing-bg {
+      background-size: cover;
+      height: 450px;
+    }
+  
+    .warehousing_content > h1 {
+      display: none;
+    }
+  
+    .warehousing_mobile_view {
+      font-size: 25px;
+    }
+  
+    .warehousingCards {
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .warehousingCards > h1 {
+      font-weight: bolder;
+    }
+  
+    .warehousingCards_card1,
+    .warehousingCards_card2,
+    .warehousingCards_card3 {
+      padding: 20px;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .warehousing_content > ul {
+      font-size: 18px;
+    }
+  
+    .warehousing_content > ul > li {
+      padding: 8px;
+    }
+  
+    .warehousing_content > p {
+      font-size: 18px;
+    }
+  
+    .warehousing_content > h4 {
+      font-size: 20px;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 1140px) {
+    .titleWarehouse {
+      font-size: 90px;
+    }
+  
+    .warehousing-bg {
+      background-size: cover;
+      height: 650px;
+    }
+  
+    .warehousing_content > h1 {
+      padding: 60px;
+    }
+  
+    .warehousing_mobile_view {
+      font-size: 35px;
+    }
+  
+    .warehousingCards {
+      padding: 30px;
+    }
+  
+    .warehousingCards_card1,
+    .warehousingCards_card2,
+    .warehousingCards_card3 {
+      width: 48%;
+      padding: 40px;
+      margin-bottom: 30px;
+    }
+  
+    .warehousing_content > ul {
+      font-size: 25px;
+    }
+  
+    .warehousing_content > ul > li {
+      padding: 15px;
+    }
+  
+    .warehousing_content > p {
+      font-size: 25px;
+    }
+  
+    .warehousing_content > h4 {
+      font-size: 30px;
       text-align: center;
     }
   }

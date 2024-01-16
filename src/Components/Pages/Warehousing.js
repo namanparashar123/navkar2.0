@@ -52,14 +52,23 @@ const Warehousing = () => {
             <h2 className="warehousing_mobile_view">Why Opt for Us?</h2>
             <br />
             <br />
-            <p><span style={underline}>Efficiency:</span> Our technology-driven approach and streamlined processes provide efficient operations.</p>
-            <br />
-            <p><span style={underline}>Reliability:</span> You can rely on us for dependable and consistent storage services.</p>
-            <br />
-            <p><span style={underline}>Support for Customers:</span> Our committed customer service team is available to help you with any questions or issues at any time.</p>
-            <br />
-            <br />
-            <br />
+            <div className="warehousingCards">
+              <div className="warehousingCards_card1">
+                <h1>Efficiency</h1>
+                <p>Our technology-driven approach and streamlined processes provide efficient operations.</p>
+
+              </div>
+              <div className="warehousingCards_card2">
+                <h1>Reliability</h1>
+                <p>You can rely on us for dependable and consistent storage services.</p>
+
+              </div>
+              <div className="warehousingCards_card3">
+                <h1>Support</h1>
+                <p>Our committed customer service team is available to help you with any issues at any time.</p>
+
+              </div>
+            </div>
             <br />
             <br />
             <h4>Visit us to learn about the dependability and simplicity of our warehousing solutions. Put your trust in us as your go-to partner for efficient inventory control and flawless order fulfillment.</h4>

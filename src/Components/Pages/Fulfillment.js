@@ -44,17 +44,25 @@ const Fulfillment = () => {
           <li><span style={underline}>Management of Inventory:</span> In order to avoid stockouts and guarantee a consistent supply for fulfillment, our integrated inventory management system tracks stock levels of both individual items and kit components in real-time.</li>
           <li><span style={underline}>Customizable Solutions:</span> Adapt our kitting and fulfillment services to your particular needs. We can realize your concept with unique kit configurations, unique packaging, or personalized inserts.</li>
         </ul>
-        
+        <br />
+        <br />
         <h2 className='fulfillment_mobile_view'>Advantages of Selecting Navkar Courier for Kitting and Fulfillment:</h2>
         <br />
         <br />
-        <p><span style={underline}>Time Savings:</span> Let us manage the logistics and kitting procedures so you can concentrate on growing your business.</p>
-        <br />
-        <p><span style={underline}>Cost-Effective:</span> You save money thanks to cost-effective procedures and bulk shipping reductions.</p>
-        <br />
-        <p><span style={underline}>Enhanced Product Offerings:</span> With well put together and presented kits, set your business apart.</p>
-        <br/>
-        <br/>
+        <div className="fulfillmentCards">
+          <div className="fulfillmentCards_card1">
+            <h1>Time Savings</h1> 
+            <p>Let us manage the kitting procedures so you can concentrate on growing your business.</p>
+          </div>
+          <div className="fulfillmentCards_card2">
+            <h1>Cost-Effective</h1> 
+            <p>You save money thanks to cost-effective procedures and bulk shipping reductions.</p>
+          </div>
+          <div className="fulfillmentCards_card3">
+            <h1>Improved Offerings</h1> 
+            <p>With well put together and presented kits, set your business apart.</p>
+          </div>
+        </div>
         <br/>
         <br/>
         <h1>What Makes Us a Partner?</h1>

@@ -147,5 +147,91 @@
 
 /* Tablets and Small Desktops */
 @media screen and (min-width: 601px) and (max-width: 1024px) {
- 
+  .about_container,
+  .vision,
+  .vision-content,
+  .about,
+  .about_content,
+  .fleet_header,
+  .fleet_info p,
+  .fleet_options,
+  .fleet_options h1,
+  .fleet {
+    padding: 15px;
+  }
+
+  .fleet_options img {
+    margin-left: 0;
+    padding: 15px;
+    width: 225px;
+  }
+
+  .vision-content,
+  .about_content {
+    font-size: 24px;
+  }
+
+  .fleet_info p {
+    font-size: 24px;
+  }
+
+  .fleet_options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fleet {
+    width: 300px;
+  }
+
+  .vision,
+  .about {
+    font-size: 60px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .about_container,
+  .vision,
+  .vision-content,
+  .about,
+  .about_content,
+  .fleet_header,
+  .fleet_info p,
+  .fleet_options,
+  .fleet_options h1,
+  .fleet {
+    padding: 20px;
+  }
+
+  .fleet_options img {
+    margin-left: 0;
+    padding: 20px;
+    width: 300px;
+  }
+
+  .vision-content,
+  .about_content {
+    font-size: 28px;
+  }
+
+  .fleet_info p {
+    font-size: 28px;
+  }
+
+  .fleet_options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .fleet {
+    width: 350px;
+  }
+
+  .vision,
+  .about {
+    font-size: 80px;
+  }
 }
